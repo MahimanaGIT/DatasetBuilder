@@ -42,8 +42,6 @@ class CameraImageCapture(QWidget):
         self.ui.capture_bt.setText("Unable to Capture, Please press Start")
 
     def get_start_num(self):
-        print(list(map(os.path.basename,iglob(self.database_url+"*.jpg"))))
-        print([os.path.basename(f) for f in  iglob(self.database_url+"*.jpg")])
         for f in  iglob(self.database_url+"*.jpg"):
             name = os.path.basename(f)
             if(str.__len__(name) == 9):
