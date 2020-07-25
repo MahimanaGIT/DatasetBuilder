@@ -1,5 +1,5 @@
-# DatasetBuilder
-Dataset Builder Using OpenCV, PyQt5 (Python)
+
+# Dataset Builder Using OpenCV, PyQt5 (Python) Using Webcam
 
 1. Make a directory named "data" inside which make a folder named "images".
 
