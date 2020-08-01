@@ -8,4 +8,4 @@
 3. If there are any images existing in the folder with same names, it will update the starting number one greater than the highest number file name present in the "./data/images" folder.
 
 4. Execute the command:
->   python3 CameraImageCapture.py"
+>   python3 CameraImageCapture.py
